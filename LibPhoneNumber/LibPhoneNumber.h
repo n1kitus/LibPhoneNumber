@@ -17,3 +17,17 @@ FOUNDATION_EXPORT const unsigned char LibPhoneNumberVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <LibPhoneNumber/PublicHeader.h>
 
 
+#import "NBPhoneNumberDefines.h"
+
+// Features
+#import "NBAsYouTypeFormatter.h"
+#import "NBPhoneNumberUtil.h"
+
+// Metadata
+#import "NBMetadataHelper.h"
+
+// Model
+#import "NBNumberFormat.h"
+#import "NBPhoneMetaData.h"
+#import "NBPhoneNumber.h"
+#import "NBPhoneNumberDesc.h"
