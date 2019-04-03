@@ -10,18 +10,18 @@
 		306AE2892254EE9600E1A574 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306AE2882254EE9600E1A574 /* CoreTelephony.framework */; };
 		30F7B4BA2254CB5200A9386D /* LibPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4B82254CB5200A9386D /* LibPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30F7B4DD2254CBD500A9386D /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4C12254CBD400A9386D /* NBPhoneNumberDesc.m */; };
-		30F7B4DE2254CBD500A9386D /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C22254CBD400A9386D /* NBGeneratedPhoneNumberMetaData.h */; };
+		30F7B4DE2254CBD500A9386D /* NBGeneratedPhoneNumberMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C22254CBD400A9386D /* NBGeneratedPhoneNumberMetaData.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		30F7B4DF2254CBD500A9386D /* GeneratePhoneNumberHeader.sh in Resources */ = {isa = PBXBuildFile; fileRef = 30F7B4C32254CBD400A9386D /* GeneratePhoneNumberHeader.sh */; };
-		30F7B4E02254CBD500A9386D /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C42254CBD400A9386D /* NBPhoneNumberDesc.h */; };
+		30F7B4E02254CBD500A9386D /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C42254CBD400A9386D /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30F7B4E12254CBD500A9386D /* NBPhoneNumberUtil+ShortNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4C52254CBD400A9386D /* NBPhoneNumberUtil+ShortNumber.m */; };
-		30F7B4E22254CBD500A9386D /* NBPhoneNumberUtil+ShortNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C62254CBD400A9386D /* NBPhoneNumberUtil+ShortNumber.h */; };
-		30F7B4E32254CBD500A9386D /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C72254CBD400A9386D /* NBNumberFormat.h */; };
-		30F7B4E42254CBD500A9386D /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C82254CBD400A9386D /* NBPhoneNumberUtil.h */; };
+		30F7B4E22254CBD500A9386D /* NBPhoneNumberUtil+ShortNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C62254CBD400A9386D /* NBPhoneNumberUtil+ShortNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F7B4E32254CBD500A9386D /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C72254CBD400A9386D /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F7B4E42254CBD500A9386D /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4C82254CBD400A9386D /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30F7B4E52254CBD500A9386D /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4C92254CBD400A9386D /* NBPhoneNumberDefines.m */; };
-		30F7B4E62254CBD500A9386D /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4CA2254CBD400A9386D /* NBPhoneNumber.h */; };
-		30F7B4E72254CBD500A9386D /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4CB2254CBD400A9386D /* NBMetadataHelper.h */; };
+		30F7B4E62254CBD500A9386D /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4CA2254CBD400A9386D /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F7B4E72254CBD500A9386D /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4CB2254CBD400A9386D /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30F7B4E82254CBD500A9386D /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4CC2254CBD400A9386D /* NBPhoneNumberUtil.m */; };
-		30F7B4E92254CBD500A9386D /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4CD2254CBD400A9386D /* NBPhoneNumberDefines.h */; };
+		30F7B4E92254CBD500A9386D /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4CD2254CBD400A9386D /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30F7B4EA2254CBD500A9386D /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4CE2254CBD500A9386D /* NBAsYouTypeFormatter.m */; };
 		30F7B4EB2254CBD500A9386D /* NSArray+NBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4CF2254CBD500A9386D /* NSArray+NBAdditions.m */; };
 		30F7B4EC2254CBD500A9386D /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4D02254CBD500A9386D /* NBMetadataHelper.m */; };
@@ -31,11 +31,11 @@
 		30F7B4F02254CBD500A9386D /* NBRegularExpressionCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4D52254CBD500A9386D /* NBRegularExpressionCache.m */; };
 		30F7B4F12254CBD500A9386D /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4D62254CBD500A9386D /* NBPhoneMetaData.m */; };
 		30F7B4F22254CBD500A9386D /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4D72254CBD500A9386D /* NBNumberFormat.m */; };
-		30F7B4F32254CBD500A9386D /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4D82254CBD500A9386D /* NBAsYouTypeFormatter.h */; };
+		30F7B4F32254CBD500A9386D /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4D82254CBD500A9386D /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30F7B4F42254CBD500A9386D /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F7B4D92254CBD500A9386D /* NBPhoneNumber.m */; };
 		30F7B4F52254CBD500A9386D /* NBPhoneNumberMetadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30F7B4DA2254CBD500A9386D /* NBPhoneNumberMetadata.plist */; };
-		30F7B4F62254CBD500A9386D /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4DB2254CBD500A9386D /* NBPhoneMetaData.h */; };
-		30F7B4F72254CBD500A9386D /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4DC2254CBD500A9386D /* NSArray+NBAdditions.h */; };
+		30F7B4F62254CBD500A9386D /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4DB2254CBD500A9386D /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30F7B4F72254CBD500A9386D /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7B4DC2254CBD500A9386D /* NSArray+NBAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -393,6 +393,7 @@
 		30F7B4BE2254CB5200A9386D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -418,6 +419,7 @@
 		30F7B4BF2254CB5200A9386D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
