@@ -30,3 +30,6 @@ FOUNDATION_EXPORT const unsigned char LibPhoneNumberVersionString[];
 #import "NBPhoneMetaData.h"
 #import "NBPhoneNumber.h"
 #import "NBPhoneNumberDesc.h"
+
+#import "NSArray+NBAdditions.h"
+#import "NBPhoneNumberUtil+ShortNumber.h"
